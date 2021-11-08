@@ -1,0 +1,18 @@
+.productItem{
+    display: flex;
+    margin: 4px 0;
+}
+
+.productItem>img{
+    width: 250px;
+    height: 250px;
+}
+
+.productItem_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.productItem_info_starts{
+    display: flex;
+}

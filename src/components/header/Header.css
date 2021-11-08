@@ -1,0 +1,128 @@
+.header{
+    display: flex;
+    background-color: #131921;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.header_top{
+    display: flex;
+    align-items: center;
+}
+.header_top_logo{
+    width: 100px;
+    height: 40px;
+    margin-right: 20px;
+}
+.header_top_local{
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.header_top_local > .Map{
+    font-size: 20px;
+}
+.header_top_local_info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.header_top_local_info > small{
+    color: rgb(233, 232, 232);
+}
+.header_top_local_info > strong{
+    font-weight: 700;
+}
+
+
+.header_search{
+    display: flex;
+    flex: 1;
+    margin: 0 15px;
+    background-color: #DADADA;
+    align-items: center;
+    border-radius: 5px;
+    height: 35px;   
+    overflow: hidden;
+}
+.header_search_all{
+    outline: none;
+    border: none;
+    align-items: center;
+    background-color: initial;
+    padding: 100% 10px;
+    cursor: pointer;
+    
+}
+.line_search{
+    width: 1px;
+    height: 100%;
+    background-color: rgb(194, 192, 192);
+}
+.header_search_input{
+    flex: 1;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 4px;
+}
+.header_search_search{
+    background-color: #F3A847;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 100% 10px;
+    cursor: pointer;
+}
+
+
+.header_right{
+    display: flex;
+    color: whitesmoke;
+    align-items: center;
+}
+.header_right_language{
+    cursor: pointer;
+}
+.header_right_language_one{
+    margin-right: 4px;
+}
+.header_right_language_two{
+    color: rgb(175, 175, 175);
+}
+
+.header_right_item{
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+    cursor: pointer;
+}
+.header_right_shop>strong,
+.header_right_item>strong{
+    font-size: 13px;
+}
+.header_right_item_icon{
+    margin-left: 4px;
+}
+
+.header_right_shop_icon{
+    font-size: 30px;
+}
+
+.header_right_shop{
+    position: relative;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.header_right_shop>small{
+    position: absolute;
+    top: 2px;
+    right: 37px;
+    font-weight: 700;
+    color: #faa02a;
+}
